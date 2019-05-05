@@ -5,12 +5,23 @@ body {
 p {
   color: #e9d460;
   font-family: fantasy;
+  font-size: auto;
 }
 
 h1,
 h2 {
   font-family: fantasy;
   color: #e9d460;
+}
+
+.city img {
+  background-size: cover; 
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 100vw;
+  height: 350px;
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%);
 }
 
 .background-img {
@@ -97,6 +108,33 @@ h2 {
 }
 
 .line {
+  width: auto;
+  height: 1px;
+  background-color: #e9d460;
+  border-bottom: 1px solid#e9d460;
+}
+
+.line-2 {
+  width: auto;
+  height: 1px;
+  background-color: #e9d460;
+  border-bottom: 1px solid#e9d460;
+}
+
+#house {
+  display: grid;
+  grid-template-columns: 60% 40%;
+  grid-row-gap: 30px;
+  grid-column-gap: 3em;
+}
+
+#house img {
+  width: 40vw;
+  height: 200px;
+  position: absolute;
+}
+
+.line-3 {
   width: auto;
   height: 1px;
   background-color: #e9d460;
